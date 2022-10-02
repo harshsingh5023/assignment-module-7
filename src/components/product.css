@@ -1,0 +1,130 @@
+.p {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.p-list {
+    max-width: 1292px;
+    width: 1292px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    flex-direction: row;
+    height: 500px;
+    overflow-x: auto ;
+}
+.p-list::-webkit-scrollbar{
+    width: 0px;
+
+}
+
+.p h1 {
+    font-size: 36px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #000000;
+}
+
+.p-list .p-item {
+    display: flex;
+    flex-direction: column;
+    height: 472px;
+    max-height: 472px;
+    min-height: 472px;
+    width: 366px;
+    max-width: 366px;
+    text-align: left;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    margin-left: 5px;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+
+.p-list .p-item img {
+    height: 307px;
+    width: 366px;
+    border-radius: 10px 10px 0 0;
+}
+
+.p-list .p-item .p-item-body {
+    border-radius: 0 0 10px 10px;
+    /* background-color: #444444; */
+    padding: 10px;
+    position: relative;
+}
+
+.p-list .p-item .p-item-body .p-item-name {
+    
+}
+.p-list .p-item .p-item-body .p-item-name h1 {
+    clip-path: polygon(0% 0, 100% 0%, 100% 32px, 0% 36px);
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 600;
+    position: absolute;
+    min-height: 32px;
+    /* height: 32px; */
+    max-height: auto;
+    background-color: #FFFFFF;
+    z-index: 10;
+}
+
+.p-list .p-item .p-item-body .p-item-name h1:hover {
+    clip-path: none;
+    border-radius: 10px;
+}
+
+.p-list .p-item .p-item-body .p-star {
+    min-width: 106px;
+    max-width: 106px;
+    width: 106px;
+    height: 18px;
+}
+
+.p-list .p-item .p-item-body .p-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 60px;
+}
+
+.p-list .p-item .p-item-body .p-price .p-old-price {
+    margin-right: 0pc;
+    margin-left: auto;
+}
+
+.p-list .p-item .p-item-body .p-price .p-old-price {
+    color: #444444;
+    text-decoration: line-through;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.p-list .p-item .p-item-body .p-price .p-new-price {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.p-list .p-item .p-item-body .p-price .p-new-price {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.p-list .p-item .p-item-body .p-btn {
+    width: 100%;
+    color: #FFFFFF;
+    background-color: #23A6F0;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    padding: 5px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,142 @@
+.f-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1050px;
+    width: 1050px;
+    /* background-color: rgb(208, 175, 240); */
+    margin-top: 95px;
+}
+hr{
+width: 100%;
+height: 0px;
+top: 138px;
+border: 1px solid #e6e6e6;
+}
+.f-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 138px;
+}
+.f-head .f-h-media{
+    margin-right: 30px;
+}
+.sm{
+    margin-right: 25px;
+}
+
+.f-head p {
+    font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+}
+.f-content{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 272px;
+    min-height: 272px;
+    max-height: 272px;
+}
+.f-content .f-c-1{
+    display: flex;
+    width: 70%;
+    flex-direction: row ;
+}
+.f-content .f-c-2{
+    width: 30%;
+    text-align: left;
+}
+.f-content .f-c-1 .f-c-main{
+    width: 25%;
+    max-width: 25%;
+    min-width: 25%;
+    text-align: left;
+}
+.f-content .f-c-1 .f-c-main .f-c-main-head{
+    font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+}
+.f-content .f-c-1 .f-c-main .f-c-main-body{
+    font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+color: #737373;
+}
+
+.f-content .f-c-2 p{
+    font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1px;
+}
+.f-content .f-c-2 .form{
+    border-radius: 5px;
+    margin-bottom: 57px;
+}
+.f-content .f-c-2 .form input{
+    width: 204px;
+    height: 58px;
+    outline: none;
+    border: 1px solid #e6e6e6;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+padding-left: 12px;
+background-color: #f9f9f9;
+}
+.f-content .f-c-2 .form input::placeholder{
+    color: #737373;
+    font-family: 'Montserrat';
+font-style: normal;
+    font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+}
+.f-content .f-c-2 .form p{
+    font-weight: 400;
+font-size: 12px;
+line-height: 28px;
+color: #737373;
+margin: 0;
+letter-spacing: 0.2px;
+}
+.f-content .f-c-2 .form button{
+    background: #23A6F0;
+    color: #ffffff;
+    font-family: 'Montserrat';
+font-style: normal;
+border: 1px solid #E6E6E6;
+border-radius: 0px 5px 5px 0px;
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+text-align: center;
+letter-spacing: 0.2px;
+padding: 10px;
+height: 62px;
+}
+.f-credit{
+    /* height: 74px; */
+    /* display: flex; */
+    align-items: left;
+    /* justify-content: center; */
+    text-align: left;
+    margin-left: 0;
+    margin-right: auto;
+    padding: 25px 0px 25px 0;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.2px;
+color: #737373;
+}
+
+
+
+

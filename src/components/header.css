@@ -1,0 +1,89 @@
+.h-wrapper{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1366px;
+    width: 1366px;
+    height: 56px;
+    /* padding-left: 20px; */
+}
+
+.h-logo{
+    font-weight: 900;
+    font-size: 24px;
+    margin-top: auto;
+    margin-left: 0;
+    margin-bottom: auto;
+    display: flex;
+}
+.h-menu{
+    margin-left: 40px;
+    min-width: 400px;
+    width: 400px;
+    justify-content: flex-start;
+}
+.h-menu ul li{
+    color: #737373;
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 14px;
+    cursor: pointer;
+    
+}
+.h-menu ul li:hover{
+    color: black;   
+}
+.h-login{
+    display: flex;
+    justify-content: flex-end;
+    max-width: 400px;
+    width: 150px;
+    align-content: center;
+}
+.h-search{
+    display: flex;
+    justify-content: flex-end;
+    max-width: 50px;
+    width: 50px;
+    align-content: center;
+}
+.h-cart{
+    display: flex;
+    justify-content: flex-end;
+    max-width: 60px;
+    width: 50px;
+    align-content: center;
+}
+.h-heart{
+    display: flex;
+    justify-content: flex-end;
+    max-width: 60px;
+    width: 60px;
+    align-content: center;
+}
+a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #23A6F0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+}
+a img{
+    margin-right: 10px;
+}
+
+.h-menu ul{
+    padding: 0;
+}
+
+.h-second{
+    display: flex;
+    margin-left: auto;
+    margin-right: 0px;
+    /* justify-content: flex-end; */
+    /* justify-content: right;
+    text-align: right; */
+}
